@@ -1,0 +1,12 @@
+No,Category,Question,Expected result
+1,multi-step reasoning,Is Earth closer to the Sun than Earth?,No
+2,multi-step reasoning,Is Venus after Earth?,No
+3,multi-step reasoning,Is Jupiter farther from the Sun than Mars?,Yes
+4,attribute lookup,What is the diameter and distance of Mars?,Mars's diameter is 6800 km. | Mars's average distance from the Sun is 1.52 AU.
+5,attribute lookup,What is the diameter of Mercury and Venus?,Mercury's diameter is 4900 km. | Venus's diameter is 12100 km.
+6,yes/no lookup,Is the Earth an ice giant?,No
+7,attribute lookup,What is the class of earth?,Earth's planetary class is terrestrial.
+8,attribute lookup,Which planet is closest to the Sun?,Mercury
+9,attribute lookup,How far is Earth from the Sun?,Earth's average distance from the Sun is 1.0 AU.
+10,unsupported,Who discovered Mars?,Not found in the document.
+11,attribute lookup,What is the distance of Earth?,Earth's average distance from the Sun is 1.0 AU.

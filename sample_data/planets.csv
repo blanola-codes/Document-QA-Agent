@@ -1,0 +1,9 @@
+planet,order,distance_au,diameter_km,class
+Mercury,1,0.39,4900,terrestrial
+Venus,2,0.72,12100,terrestrial
+Earth,3,1.0,12800,terrestrial
+Mars,4,1.52,6800,terrestrial
+Jupiter,5,5.2,143000,gas giant
+Saturn,6,9.58,121000,gas giant
+Uranus,7,19.2,51000,ice giant
+Neptune,8,30.05,50000,ice giant

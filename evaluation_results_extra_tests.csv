@@ -1,0 +1,12 @@
+No,Category,Question,Expected,System answer,Question type,Type correct,Correct,Trace supports answer,Response time (ms)
+1,multi-step reasoning,Is Earth closer to the Sun than Earth?,No,No. Earth is not closer to the Sun than itself.,multi-step reasoning,Yes,Yes,Yes,0.2956
+2,multi-step reasoning,Is Venus after Earth?,No,No. Venus is not farther from the Sun than Earth.,multi-step reasoning,Yes,Yes,Yes,0.0559
+3,multi-step reasoning,Is Jupiter farther from the Sun than Mars?,Yes,Yes. Jupiter is farther from the Sun than Mars.,multi-step reasoning,Yes,Yes,Yes,0.0799
+4,attribute lookup,What is the diameter and distance of Mars?,Mars's diameter is 6800 km. | Mars's average distance from the Sun is 1.52 AU.,Mars's average distance from the Sun is 1.52 AU. Mars's diameter is 6800 km.,simple lookup,Yes,Yes,Yes,0.1971
+5,attribute lookup,What is the diameter of Mercury and Venus?,Mercury's diameter is 4900 km. | Venus's diameter is 12100 km.,Mercury's diameter is 4900 km. Venus's diameter is 12100 km.,simple lookup,Yes,Yes,Yes,0.0688
+6,yes/no lookup,Is the Earth an ice giant?,No,"No. Earth's planetary class is terrestrial, not ice giant.",yes/no lookup,Yes,Yes,Yes,0.9814
+7,attribute lookup,What is the class of earth?,Earth's planetary class is terrestrial.,Earth's planetary class is terrestrial.,simple lookup,Yes,Yes,Yes,0.0572
+8,attribute lookup,Which planet is closest to the Sun?,Mercury,Not found in the document.,not found,No,No,Yes,0.0916
+9,attribute lookup,How far is Earth from the Sun?,Earth's average distance from the Sun is 1.0 AU.,Not found in the document.,not found,No,No,Yes,0.0667
+10,unsupported,Who discovered Mars?,Not found in the document.,Not found in the document.,not found,Yes,Yes,Yes,0.0189
+11,attribute lookup,What is the distance of Earth?,Earth's average distance from the Sun is 1.0 AU.,Earth's average distance from the Sun is 1.0 AU.,simple lookup,Yes,Yes,Yes,0.0362

@@ -1,0 +1,26 @@
+No,Category,Question,Expected result
+1,attribute lookup,What is the distance of Mercury?,Mercury's average distance from the Sun is 0.39 AU.
+2,attribute lookup,What is the diameter of Venus?,Venus's diameter is 12100 km.
+3,attribute lookup,What is the order of Earth?,Earth's order from the Sun is 3.
+4,attribute lookup,What is the class of Mars?,Mars's planetary class is terrestrial.
+5,attribute lookup,What is the distance of Jupiter?,Jupiter's average distance from the Sun is 5.2 AU.
+6,attribute lookup,What is the diameter of Saturn?,Saturn's diameter is 121000 km.
+7,attribute lookup,What is the class of Uranus?,Uranus's planetary class is ice giant.
+8,attribute lookup,What is the order of Neptune?,Neptune's order from the Sun is 8.
+9,attribute filter,Which planets are terrestrial?,"Mercury, Venus, Earth, Mars"
+10,attribute filter,Which planets are gas giant?,"Jupiter, Saturn"
+11,attribute filter,Which planets are ice giant?,"Uranus, Neptune"
+12,yes/no lookup,Is Earth a terrestrial planet?,Yes
+13,yes/no lookup,Is Jupiter a gas giant?,Yes
+14,yes/no lookup,Is Mars an ice giant?,No
+15,yes/no lookup,Is Neptune a terrestrial planet?,No
+16,multi-step reasoning,Is Mercury closer to the Sun than Earth?,Yes
+17,multi-step reasoning,Is Earth closer to the Sun than Jupiter?,Yes
+18,multi-step reasoning,Is Neptune closer to the Sun than Mars?,No
+19,multi-step reasoning,Is Venus closer to the Sun than Saturn?,Yes
+20,multi-step reasoning,Is Jupiter closer to the Sun than Uranus?,Yes
+21,unsupported,What is the diameter of Pluto?,Not found in the document.
+22,unsupported,What is the temperature of Earth?,Not found in the document.
+23,unsupported,Who discovered Neptune?,Not found in the document.
+24,unsupported,What is the number of moons of Mars?,Not found in the document.
+25,unsupported,Tell me about the Sun.,Not found in the document.
