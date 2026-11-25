@@ -19,9 +19,10 @@ from document_qa import DocumentQASystem
 from evaluation import SUITES, run_evaluation
 
 BASE_DIR = Path(__file__).resolve().parent
-UPLOAD_DIR = BASE_DIR / "uploads"
+import tempfile
+UPLOAD_DIR = Path(tempfile.gettempdir()) / "uploads"
 SAMPLE_FILE = BASE_DIR / "sample_data" / "planets.csv"
-UPLOAD_DIR.mkdir(exist_ok=True)
+UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 1 * 1024 * 1024  # reject uploads over 1 MB
